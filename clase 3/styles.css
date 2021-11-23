@@ -1,0 +1,26 @@
+p {
+  color: rgb(110, 13, 33);
+  background-color: rgb(32, 145, 145);
+  text-align: justify;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 260px;
+  padding: 30px;
+  font-family: "Dancing Script", cursive;
+  font-size: 16px;
+}
+
+.first-class {
+  color: red;
+}
+
+#parrafo2 {
+  background-color: rosybrown;
+  color: purple;
+}
+
+* {
+  margin: 5px;
+  padding: 5px;
+}
