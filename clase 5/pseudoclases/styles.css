@@ -1,0 +1,60 @@
+a {
+  background-color: deepskyblue;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  display: block; /*para darle opcion de caja al "a"*/
+  width: 150px;
+  text-align: center;
+}
+input {
+  margin: 13px;
+}
+a:visited {
+  /*para darle estilo cuando ya se ha visitado, solo funciona con links*/
+  color: blue;
+  background-color: cadetblue;
+}
+body {
+  padding: 10px;
+}
+a:hover {
+  /*para darle estilo al colocar el click encima*/
+  background-color: darkviolet;
+  color: aqua;
+  font-family: "Courier New", Courier, monospace;
+}
+button:active {
+  /*para darle estilo al dar click*/
+  background-color: rgb(185, 37, 62);
+}
+input:focus {
+  background-color: blueviolet;
+  block-size: 30px;
+}
+input:checked {
+  width: 50px;
+  height: 50px;
+}
+#contenido {
+  margin-top: 100px;
+}
+strong:first-child {
+  background-color: cyan;
+}
+strong:last-child {
+  background-color: yellowgreen;
+}
+ul li:nth-child(2) {
+  color: green;
+}
+/*ul li:nth-child(2n + 1) {
+  color: rgb(141, 34, 96);
+}*/
+ul li:nth-child(3n) {
+  color: rgb(81, 0, 128);
+}
